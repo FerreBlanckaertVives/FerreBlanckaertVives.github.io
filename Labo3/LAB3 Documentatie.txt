@@ -1,0 +1,9 @@
+Opdracht 1
+De blokjes komen overeen met de verschillende delen van de html file. de lijntjes zijn net zoals de nesting.
+Opdracht 2
+/ 
+Opdracht 3
+Uit welke elementen bestaan die accordion elementen?
+<div> elementen
+Wat veranderd er?
+CSS code wordt veranderd zoals height en width etc...
