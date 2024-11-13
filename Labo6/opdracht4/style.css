@@ -1,0 +1,27 @@
+/* Algemene stijl voor de body */
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 1.1em;
+    background-color: silver;
+    color: darkblue;
+}
+
+/* Stijl voor de hoofding h1 */
+h1 {
+    font-variant: small-caps;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+/* Stijl voor links met hover-effect */
+a:hover {
+    border: 2px solid blue;
+    padding: 2px;
+}
+
+/* Klasse voor de gestippelde rand */
+.stippeltjesrand {
+    border: 1px dotted darkblue;
+    padding: 5px;
+}
