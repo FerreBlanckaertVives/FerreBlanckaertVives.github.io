@@ -1,0 +1,66 @@
+body{
+    margin:0px;
+    font-family:Verdana, Helvetica, Arial, sans-serif;
+    font-size:1.2em;
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+}
+#imgHeader{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+header{
+    text-align: center;
+}
+ h1{
+     color:#007e7e;
+    font-size:150%;
+ }
+ h2{
+    color:#007e7e;
+    font-size:130%;
+}
+ #elixers{
+     width:30%;
+     float:right;
+     border:1px solid #007e7e;
+     padding:2%;
+     box-sizing: border-box;
+     text-align:center;
+     background:url("../images/cocktail.gif")repeat-x;
+     line-height: 1;
+ }
+ #content{
+     float:left;
+     width:70%;
+     padding-right: 8px;
+     box-sizing: border-box;
+ }
+ #elixers h1{
+     color:black;
+ }
+ #elixers h2{
+     color:#d12c47;
+ }
+ #guarantee{
+     line-height: 1.9em;
+     font-style:italic;
+     font-family:Verdana, Helvetica, Arial, sans-serif;
+     color:#444444;
+     border: 1px dashed white;
+
+     padding:10px 25px 25px 80px;
+     margin:30px;
+     background:#a7cece url("../images/background.gif")no-repeat top left;
+ }
+article{
+    border: 1px solid black;
+
+
+}
+
+footer{
+    font-size: 0.6em;
+}
