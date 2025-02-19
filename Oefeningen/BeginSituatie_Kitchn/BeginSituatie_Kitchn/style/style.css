@@ -1,0 +1,112 @@
+/** Volgende CSS gaan we ze geven **/
+* {
+    margin: 0;
+}
+
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+h1{
+text-transform: uppercase;
+    font-size: 2em;
+    text-decoration: underline 2px black;
+    color: black;
+    margin-bottom: 1em;  /* 100% van de font-size van de parent */
+    padding-bottom: 1em; /* 100% van de font-size van de parent */
+
+}
+h2 {
+    font-size: 1.5em;   /* 150% van de font-size van de parent */
+    margin-bottom: 1em; /* De onderste margin is gelijk aan de font-size van de parent */
+}
+nav{
+    display:grid;
+    grid-template-columns:repeat(7, auto) ;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #5b4746;
+    font-size: 13px;
+}
+
+a:hover {
+    text-decoration: underline #fff100 2px;
+}
+/* styles.css */
+
+/* Header-stijl */
+header {
+    width: 100%; /* Zorgt ervoor dat de header de volledige breedte van de pagina heeft */
+    border-bottom: 1px solid #EBE8E8;
+
+}
+
+header img {
+    height: 50px; /* Stel de hoogte van de afbeelding in op 50px */
+    object-fit: cover; /* Zorgt ervoor dat de afbeelding goed schaalt zonder vervorming */
+}
+
+/* Onderste lijn in de header */
+header::after {
+    content: ''; /* Zorgt ervoor dat de pseudo-element wordt weergegeven */
+    display: block;
+    width: 100%; /* Volledige breedte van de pagina */
+    height: 1px; /* 1px hoogte voor de lijn */
+    background-color: #ebe8e8; /* Grijze kleur voor de lijn */
+}
+
+/* styles.css */
+
+/* Algemene header-stijl */
+header {
+    width: 100%;
+    max-width: 100%; /* Zorgt ervoor dat de header niet breder wordt dan 100% van het scherm */
+    margin: 0 auto; /* Dit centreert het element horizontaal */
+}
+
+/* Standaard breedte van de header (kleine schermen) */
+@media (max-width: 600px) {
+    header {
+        width: 600px; /* Stel de breedte in op 600px voor kleinere schermen */
+    }
+    nav{
+        width:600px;
+    }
+}
+
+/* Breedte van de header vanaf 770px viewport breedte */
+@media (min-width: 770px) {
+    header {
+        width: 750px; /* Stel de breedte in op 750px voor schermen breder dan 770px */
+    }
+    nav{
+        width:750px;
+    }
+}
+
+/* Breedte van de header vanaf 1000px viewport breedte */
+@media (min-width: 1000px) {
+    header {
+        width: 980px; /* Stel de breedte in op 980px voor schermen breder dan 1000px */
+    }
+    nav{
+        width:980px;
+    }
+}
+
+

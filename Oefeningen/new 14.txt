@@ -1,0 +1,74 @@
+new style: .name{}
+
+difference id vs class: 
+id:
+#
+1 element for a page
+higher specificity
+class:
+.
+multiple elements
+low specificity
+
+@media query:
+@media (voorwaarde) {
+  /* CSS regels die gelden wanneer de voorwaarde waar is */
+}
+
+wildcard:
+*= bevat
+^= begint met
+$= eindigt op
+
+background image -> zie labo7 background image
+
+horizontaal centreren: margin left en margin right:auto;
+
+body>section>header: header kind van section kind van body
+
+a: links, a:hover, a:active
+
+even of oneven: element:nth-child(odd/even)
+
+border-box: behouden breedte/hoogte element (border en zo in de breedte)
+
+float: left; → Element wordt links uitgelijnd, andere inhoud vloeit rechts.
+float: right; → Element wordt rechts uitgelijnd, andere inhoud vloeit links.
+Gebruik clear om overlappende elementen te voorkomen.
+
+position: relative; laat een element op zijn normale plek staan, maar je kunt het verplaatsen met top, right, bottom of left.
+Het is een anker voor elementen met position: absolute;.
+Als je een element met position: absolute; binnen een relatief gepositioneerd element plaatst,
+dan positioneert het zich ten opzichte van die ouder.
+
+Grid: fr fr fr
+
+bootstrap: groot scherm col-lg medium scherm col-md klein col-sm
+som = 12
+
+flexbox: 
+display:flex;
+flex:direction:row;
+Justify-content: x-axis
+align-items: y-axis
+
+flex:direction:column
+justify content y axis
+align-items x-axis
+
+
+flex-wrap:wrap; -> align-content
+gap: plek tussen items
+
+flex:grow;
+flex-shrink;
+|
+flex: alles samen
+
+align-self:;
+
+order(best niet gebruiken)
+
+inline-block:
+block+inline elementen = breedte en hoogte instelbaar
+naast elkaar zetten en marges en padding toepasbaar
