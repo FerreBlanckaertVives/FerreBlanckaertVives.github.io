@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Invulformulier</title>
+</head>
+<body>
+
+<form method=POST action="mailto:ferre.blanckaert@student.vives.be" enctype="multipart/form-data">
+    <p>
+        <label>Voornaam *</label>
+        <input type="text" id="first" required="required" placeholder="Je voornaam" autofocus="autofocus">
+    </p>
+    <p>
+        <label>Achternaam *</label>
+        <input type="text" required placeholder="Je achternaam">
+    </p>
+
+    <p>Welke sport train je?</p>
+    <p><input type="checkbox" value="Hardlopen">Hardlopen</p>
+    <p><input type="checkbox" value="Zwemmen">Zwemmen</p>
+    <p><input type="checkbox" value="Roeien">Roeien</p>
+
+    <p><input type="radio" name="gender" value="Man">Man</p>
+    <p><input type="radio" name="gender" value="Vrouw">Vrouw</p>
+
+    <p>Favoriete film: <input type="text"></p>
+    <p>Favoriete quote: <input type="text"></p>
+    <p>Favoriete eten:
+        <select size="3">
+            <option>Hamburger</option>
+            <option>Hotdog</option>
+            <option>Pizza</option>
+        </select>
+    </p>
+    <p>Kies een smaak: <input type="text"></p>
+
+    <p>Wachtwoord: <input required type="password"></p>
+    <p>E-mailadres* <input type="text" required placeholder="Voer je e-mailadres in"></p>
+    <p>Favoriete website: <input type="text" placeholder="Voer de URL van je favoriete website in"></p>
+
+    <p>Favoriete nummer (1-10): <input type="text"></p>
+    <p>Favoriete nummer (11-1000): <input type="range" min="11" max="1000"> </p>
+    <p>Wanneer ben je geboren? <input type="date"></p>
+    <p>Belgisch postnummer reg nummer * <input type="text" required placeholder="9999"></p>
+
+    <p>Zoek iets: <input type="search"></p>
+    <p>Wat is je favoriete kleur? <input type="color"></p>
+    <p>Upload een bestand: <input type="file"></p>
+
+    <input type="submit" onclick="mail()">
+</form>
+<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+</body>
+</html>
+
+
