@@ -1,4 +1,4 @@
-____
+
 
 let global = {
     IMAGE_COUNT: 5,
